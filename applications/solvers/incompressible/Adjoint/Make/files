@@ -1,0 +1,9 @@
+src/adjointSolver/simpleAdjoint.C
+src/boundaryConditions/tractionForce/tractionForceAdjointUWallFvPatchVectorField.C
+src/boundaryConditions/tractionForce/tractionForceAdjointPOutletFvPatchScalarField.C
+src/boundaryConditions/dissipatedPower/dissipatedPowerAdjointPOutletFvPatchScalarField.C
+src/boundaryConditions/dissipatedPower/dissipatedPowerAdjointUInletFvPatchVectorField.C
+src/boundaryConditions/staticPressureRise/staticPRiseAdjointPOutletFvPatchScalarField.C
+src/boundaryConditions/staticPressureRise/staticPRiseAdjointUInletFvPatchVectorField.C
+
+EXE = $(FOAM_USER_APPBIN)/simpleAdjoint
